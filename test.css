@@ -109,14 +109,15 @@ h2 {
   width: 50%;
   height: 292px;
   object-fit: contain;
-  margin: 0.5em;
+  margin: 1em;
+  text-align: center;
 }
 
 .right3 {
   background-color: aqua;
   width: 50%;
   height: 292px;
-  margin: 0.5em;
+  text-align: center;
 }
 
 .c4 {
@@ -127,15 +128,18 @@ h2 {
 
 .left4 {
   background-color: aqua;
-  width: 225px;
+  width: 50%;
   height: 292px;
+  object-fit: contain;
+  text-align: center;
 }
 
 .right4 {
   background-color: aqua;
-  width: 225px;
+  width: 50%;
   height: 292px;
-  margin: 0.5em;
+  margin: 1em;
+  text-align: center;
 }
 .footer {
   width: 100%;
@@ -151,4 +155,25 @@ h2 {
   color: white;
   background-color: teal;
   margin: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+  .box1 {
+    width: 100%;
+  }
+  .box2 {
+    width: 100%;
+  }
+  .box3 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .main {
+    width: 100%;
+  }
 }
